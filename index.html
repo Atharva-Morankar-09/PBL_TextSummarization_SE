@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Text Summarizer</title>
+</head>
+
+<body>
+    <nav class="bg-blue-200 w-full fixed">
+        <ul class="flex px-4 py-2">
+            <div>
+                <img src="" alt="logo" class="inset-5 mx-5">
+            </div>
+
+            <li class="mx-3 py-3 cursor-pointer font-extralight font-serif">HOME</li>
+
+
+            <li class="mx-80 py-3 font-extrabold text-lg">TEXT SUMMARIZATION</li>
+
+
+            <li class="mx-3 py-3 cursor-pointer font-extralight font-serif">ABOUT US</li>
+
+        </ul>
+    </nav>
+
+    <div class="flex py-4">
+        <div class="px-32 py-24 w-3/6">
+            <!-- <input type="text" class="px-20 py-40 border-4 "> -->
+            <textarea placeholder="Enter the input..." cols="50" rows="15" class="px-2 py-2 border-4"></textarea>
+            <button
+                class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Upload File
+            </button>
+            <div class="px-[28rem]">
+                <button
+                    class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-2 border-b-4 border-green-700 hover:border-green 500 rounded">
+                    SUMMARIZE
+                </button>
+            </div>
+
+        </div>
+
+        <div class="px-32 py-24 w-3/6">
+            <!-- <input type="text" class="px-20 py-40 border-4"> -->
+            <textarea placeholder="" cols="50" rows="15" class="px-2 py-2 border-4"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
